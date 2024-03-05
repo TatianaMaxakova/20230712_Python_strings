@@ -2,6 +2,10 @@
 # Получить ответ в виде строки. Сохранить в переменную.
 # Вывести первое слово ответа на экран
 
-answer = input("Как пройти в библиотеку?\n")
-words = answer.split()
-print(words[0])
+#answer = input("Как пройти в библиотеку?\n")
+#words = answer.split()
+#print(words[0])
+
+marshrut = input("Как пройти в библиотеку? ")
+first_word = marshrut.split()[0]
+print(first_word)
